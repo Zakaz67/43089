@@ -77,3 +77,12 @@ min(tamoma_cross)
 max(tamoma_cross)
 tamoma_cross.reverse()
 print(tamoma_cross)
+
+5. text = "PythonProgramming"
+
+print(text[:6])     # Первые 6 символов
+print(text[-7:])    # Последние 7 символов
+print(text[::-1])   # Строка наоборот
+print(text[::2])    # Каждый второй символ
+print(text[2:-2])   # Без первых и последних 2 символов
+print(text[:-5:-1]) # Последние 4 символа в обратном порядке
